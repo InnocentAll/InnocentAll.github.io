@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Profil: ALLAMADJI DJIMRASSEM Innocent
+License: www.linkedin.com/in/djimrassem-innocent-allamadji-b94789263/
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
