@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Innocent ALLAMADJI - Portfolio Data Scientist</title>
-  <meta content="Portfolio professionnel de Djimrassem Innocent ALLAMADJI, Étudiant en Data Science et Big Data à Marseille." name="description">
+  <meta content="Portfolio de Djimrassem Innocent ALLAMADJI, Étudiant en Data Science et Big Data à Marseille." name="description">
   <meta content="Data Scientist, Data Analyst, Machine Learning, Marseille, Python, SQL" name="keywords">
 
   <link href="assets/img/favicon.png" rel="icon">
@@ -22,6 +22,15 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
+  
+  <style>
+    /* Correction pour le nom dans la barre latérale */
+    #header .profile h1 a {
+      color: #fff; /* Texte blanc pur pour le contraste */
+      font-weight: 700;
+      text-shadow: 0px 2px 4px rgba(0,0,0,0.3); /* Effet de profondeur */
+    }
+  </style>
 </head>
 
 <body>
@@ -35,9 +44,9 @@
         <img src="assets/img/profile-img.jpg" alt="Innocent ALLAMADJI" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Innocent ALLAMADJI</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://github.com/InnocentAll" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/djimrassem-innocent-allamadji-b94789263/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://twitter.com/All_Djim" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://github.com/InnocentAll" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/djimrassem-innocent-allamadji-b94789263/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/All_Djim" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
         </div>
       </div>
 
@@ -57,10 +66,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Innocent ALLAMADJI</h1>
-      <p>Je suis <span class="typed" data-typed-items="Data Scientist, Data Analyst, Expert Machine Learning, Développeur Web & Mobile"></span></p>
-      <div class="mt-4">
-        <a href="#about" class="btn-scroll scrollto" title="En savoir plus"><i class="bx bx-chevrons-down"></i></a>
-      </div>
+      <p>Je suis <span class="typed" data-typed-items="Data Scientist, Expert Machine Learning, Data Analyst, Ingénieur Informatique"></span></p>
     </div>
   </section>
 
@@ -68,21 +74,16 @@
 
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
           <h2>À propos</h2>
-          <p>Étudiant passionné en <strong>Licence Professionnelle "Métiers du Décisionnel, Statistique et Big Data"</strong> à l'Université d'Aix-Marseille. Je suis actuellement à la recherche d'un <strong>stage de fin d'études</strong> (du 1er Mars au 31 Août 2026) en Data Analysis, Science, Business Intelligence ou IA.</p>
+          <p>Étudiant en <strong>Licence Professionnelle "Métiers du Décisionnel, Statistique et Big Data"</strong> à l'Université d'Aix-Marseille. Passionné par la Data Science et la Business Intelligence, je recherche activement un <strong>stage de fin d'études du 1er Mars au 31 Août 2026</strong>.</p>
         </div>
-
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Data Scientist &amp; Ingénieur Informatique</h3>
-            <p class="fst-italic">
-              Basé à Marseille, j'allie des compétences solides en développement logiciel et une expertise poussée en analyse de données.
-            </p>
+            <h3>Expertise Data & Développement</h3>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -99,106 +100,144 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Parcours Professionnel & Formation</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Formation</h3>
+            <div class="resume-item">
+              <h4>Licence Pro. Sciences et Technologies</h4>
+              <h5>2025 - Présent</h5>
+              <p><em>Université d'Aix-Marseille - UFR Sciences</em></p>
+              <p>Parcours Informatique Décisionnelle, Statistiques et Big Data.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Licence Data Developer</h4>
+              <h5>2023</h5>
+              <p><em>Projet Tech4Tchad | Simplon | Université de N'Djamena</em></p>
+              <p>Formation intensive sur les concepts de données SQL/NoSQL et langages Python, R, Dart.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Ingénieur des Travaux en Informatique</h4>
+              <h5>2021</h5>
+              <p><em>Faculté des Sciences Exactes et Appliquées | Université de N'Djamena</em>.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Expériences Professionnelles</h3>
+            <div class="resume-item">
+              <h4>Enquêteur (Outil ODK Collect)</h4>
+              <h5>Octobre - Novembre 2024</h5>
+              <p><em>OMS / ADES / PAM, Tchad</em></p>
+              <ul>
+                <li>Évaluation de campagne de vaccination et ciblage pour assistance alimentaire.</li>
+                <li>Collecte de données géographiques et sanitaires via ODK Collect.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Développeur Web, Mobile et de Données</h4>
+              <h5>Février - Juillet 2024</h5>
+              <p><em>OMION IT Consulting, N'Djamena</em></p>
+              <ul>
+                <li>Conception de bases de données SQL sécurisées.</li>
+                <li>Analyse de données et visualisation d'insights pour optimiser les processus clients.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Stage en Intelligence Artificielle</h4>
+              <h5>Octobre - Décembre 2023</h5>
+              <p><em>Force N / Université Numérique Cheikh Hamidou Kane (Sénégal)</em></p>
+              <ul>
+                <li>Analyse et exploration d'outils d'IA et traitement du langage naturel.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="skills" class="skills section-bg">
       <div class="container">
-
         <div class="section-title">
           <h2>Compétences Techniques</h2>
         </div>
-
         <div class="row skills-content">
-
           <div class="col-lg-6" data-aos="fade-up">
             <div class="progress">
-              <span class="skill">Python / Django <i class="val">90%</i></span>
+              <span class="skill">Python (Analyse de données, ML) <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
             <div class="progress">
-              <span class="skill">SQL (MySQL, PostgreSQL) <i class="val">85%</i></span>
+              <span class="skill">SQL & NoSQL (MySQL, PostgreSQL, Firebase) <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
             <div class="progress">
-              <span class="skill">Power BI / Tableau / ETL <i class="val">75%</i></span>
+              <span class="skill">Power BI / Tableau / Excel <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="progress">
-              <span class="skill">Flutter / Dart <i class="val">80%</i></span>
+              <span class="skill">Frameworks (Django, Flutter, Laravel) <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
             <div class="progress">
-              <span class="skill">HTML / CSS / Bootstrap <i class="val">80%</i></span>
+              <span class="skill">Web (HTML, CSS, JavaScript) <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-
             <div class="progress">
-              <span class="skill">Adobe Suite (Design Graphique) <i class="val">70%</i></span>
+              <span class="skill">Design (Photoshop, Illustrator, Canva) <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section>
 
     <section id="projects" class="portfolio section-bg">
       <div class="container">
-
         <div class="section-title">
-          <h2>Projets Majeurs</h2>
-          <p>Voici mes réalisations les plus récentes en Data Science et Développement.</p>
+          <h2>Projets Réalisés</h2>
+          <p>Retrouvez mes travaux les plus récents sur mon <a href="https://github.com/InnocentAll" target="_blank">GitHub</a>.</p>
         </div>
-
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
+            <div class="card h-100 shadow-sm border-0">
               <div class="card-body">
                 <h5 class="card-title text-primary">IsolationForest-Health-CPAM</h5>
-                <p class="card-text">Optimisation du contrôle de santé par IA : Détection d'anomalies via l'algorithme Isolation Forest sur les données nationales de l'Assurance Maladie.</p>
-                <div class="mt-3">
-                  <span class="badge bg-secondary">Python</span> <span class="badge bg-secondary">Jupyter</span> <span class="badge bg-secondary">IA</span>
-                </div>
-                <a href="https://github.com/InnocentAll/IsolationForest-Health-CPAM" class="btn btn-outline-primary btn-sm mt-3"><i class="bx bxl-github"></i> Voir le code</a>
+                <p class="card-text">IA pour la détection d'anomalies dans les données de santé (Assurance Maladie) via l'algorithme Isolation Forest.</p>
+                <div class="mt-2"><span class="badge bg-secondary">Python</span> <span class="badge bg-secondary">Jupyter</span> <span class="badge bg-secondary">Data Science</span></div>
               </div>
             </div>
           </div>
-
           <div class="col-lg-6 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
+            <div class="card h-100 shadow-sm border-0">
               <div class="card-body">
                 <h5 class="card-title text-primary">ImmoPredict2025</h5>
-                <p class="card-text">Estimation immobilière intelligente basée sur les données réelles DVF 2025. Pipeline Data complète du nettoyage massif à une Web App interactive.</p>
-                <div class="mt-3">
-                  <span class="badge bg-secondary">Streamlit</span> <span class="badge bg-secondary">Data Science</span> <span class="badge bg-secondary">Pipeline</span>
-                </div>
-                <a href="https://github.com/InnocentAll/ImmoPredict2025" class="btn btn-outline-primary btn-sm mt-3"><i class="bx bxl-github"></i> Voir le code</a>
+                <p class="card-text">Application d'estimation immobilière intelligente basée sur les données réelles DVF 2025 avec pipeline Streamlit.</p>
+                <div class="mt-2"><span class="badge bg-secondary">Streamlit</span> <span class="badge bg-secondary">Machine Learning</span> <span class="badge bg-secondary">DVF</span></div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -210,16 +249,9 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Localisation:</h4>
-                <p>Marseille, France</p>
-              </div>
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>djimrassem.ALLAMADJI@etu.univ-amu.fr</p>
-              </div>
+              <div class="address"><i class="bi bi-geo-alt"></i><h4>Localisation:</h4><p>Marseille, France</p></div>
+              <div class="email"><i class="bi bi-envelope"></i><h4>Email:</h4><p>djimrassem.ALLAMADJI@etu.univ-amu.fr</p></div>
+              <div class="phone"><i class="bi bi-phone"></i><h4>Téléphone:</h4><p>+33 7 53 82 28 38</p></div>
             </div>
           </div>
         </div>
